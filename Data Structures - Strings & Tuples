@@ -1,0 +1,39 @@
+# ============ Strings ============
+
+# 1. String Concatenation
+string1 = "Hello "
+string2 = input("Devika: ")
+greeting = string1 + string2
+print(greeting)
+
+string3 = ", welcome to Python programming"
+greeting = greeting + string3
+print(greeting)
+
+# 2. String Slicing and Indexing
+print(greeting[0])
+print(greeting[-1])
+print(greeting[:5])
+print(greeting[-11:])
+print(greeting[::-1])
+start = greeting.find("Python")
+print(greeting[start:start + 6])
+
+# 3. String Methods
+strM = "Python beginner tutorial"
+print(strM.upper())
+print(strM.lower())
+print(strM.lower().capitalize())
+print(strM.count('t'))
+print(strM.replace("Python", "Machine Learning"))
+
+# ============ Tuples ============
+tuple1 = (10, 20, 30)
+tuple2 = (40, 50, 60)
+
+t_combine = tuple1 + tuple2
+print(t_combine)
+print(t_combine * 3)
+print(t_combine[2])
+print(t_combine[:3])
+print(t_combine[-3:])
